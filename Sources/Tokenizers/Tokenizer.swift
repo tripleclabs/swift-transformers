@@ -1017,5 +1017,9 @@ fileprivate extension String {
     init(localized key: String) {
         self = key
     }
+
+    init(localized key: String, comment: String) {
+        self = key
+    }
 }
 #endif
